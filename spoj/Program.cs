@@ -10,6 +10,8 @@ namespace spoj
     {
         static void Main(string[] args)
         {
+            ZadanieProbne zadanie = new ZadanieProbne();
+            
         }
     }
 }
