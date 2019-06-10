@@ -1,0 +1,7 @@
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\bin\Debug\spoj.exe.config
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\bin\Debug\spoj.exe
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\bin\Debug\spoj.pdb
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\obj\Debug\spoj.csprojAssemblyReference.cache
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\obj\Debug\spoj.csproj.CoreCompileInputs.cache
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\obj\Debug\spoj.exe
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\spoj\obj\Debug\spoj.pdb
