@@ -1,0 +1,14 @@
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\LiczbyPierwszeTests.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\LiczbyPierwszeTests.pdb
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\Tests.csproj.CopyComplete
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\LiczbyPierwszeTests.dll
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\LiczbyPierwszeTests.pdb
