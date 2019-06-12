@@ -12,3 +12,6 @@ C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\Tests
 C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\Tests.csproj.CopyComplete
 C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\LiczbyPierwszeTests.dll
 C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\obj\Debug\LiczbyPierwszeTests.pdb
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\spoj.exe
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\spoj.pdb
+C:\Users\jkola\Desktop\Programowanie\C#\spoj\LiczbyPierwszeTests\bin\Debug\spoj.exe.config

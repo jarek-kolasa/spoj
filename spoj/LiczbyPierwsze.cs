@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace spoj
 {
-    class LiczbyPierwsze
+    public class LiczbyPierwsze
     {
-        public LiczbyPierwsze()
-        {
+        public string _answer;
+        public int _value;
 
+        public LiczbyPierwsze(int value, string answer)
+        {
+            _answer = answer;
+            _value = value;
+        }
+
+        public string GetAnswer()
+        {
+            return _answer;
         }
     }
 }

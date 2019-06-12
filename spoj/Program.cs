@@ -10,7 +10,7 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            LiczbyPierwsze liczby = new LiczbyPierwsze();
+            LiczbyPierwsze liczby = new LiczbyPierwsze(3, "NIE");
             
         }
     }
