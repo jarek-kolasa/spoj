@@ -20,12 +20,14 @@ namespace spoj.Tests
         [TestMethod()]
         public void Value3ShouldGiveTakAnswer()
         {
-            int inputValue = 3;
-            string answer = "TAK";
-            LiczbyPierwsze liczby = new LiczbyPierwsze(inputValue, answer);
+            int testsQuantity = 3;
+            int [] inputValues = { 11, 1, 4};
+            string [] answers = { "TAK", "NIE", "NIE"};
+            LiczbyPierwsze liczby = new LiczbyPierwsze(testsQuantity, inputValues);
 
-            Assert.AreEqual(answer, liczby.GetAnswer());
+            Assert.AreEqual(answers[0], liczby.GetAnswer()[0]);
+            Assert.AreEqual(answers[1], liczby.GetAnswer()[1]);
+            Assert.AreEqual(answers[2], liczby.GetAnswer()[2]);
         }
-
     }
 }
