@@ -56,6 +56,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="DwieCyfrySilniTests.cs" />
     <Compile Include="LiczbyPierwszeTests.cs" />
     <Compile Include="PredkoscSredniaTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,17 +10,31 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            int tests, v1, v2;
-            string input;
-            string[] inputArr;
+            int tests = int.Parse(Console.ReadLine());
 
-            tests = int.Parse(Console.ReadLine());
-            
-            input = Console.ReadLine();
-            inputArr = input.Split(' ');
-            v1 = int.Parse(inputArr[0]);
-            v2 = int.Parse(inputArr[1]);
-            Console.WriteLine((2*v1*v2)/(v1 + v2));
+            for (int i = 0; i < tests; i++)
+            {
+                int number = int.Parse(Console.ReadLine());
+
+                if (number >= 10)
+                {
+                    Console.WriteLine("0 0");
+                } else
+                {
+                long returnValue = 1;
+                long tens, digits;
+               
+                    for (int j = 2; j <= number; j++)
+                    {
+                        returnValue *= j;
+                    }
+
+                digits = returnValue % 10;
+                tens = (returnValue % 100) / 10;
+
+                Console.WriteLine("{0} {1}", tens, digits);
+                }
+            }
         }
     }
 }
