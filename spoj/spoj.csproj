@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DwieCyfrySilni.cs" />
     <Compile Include="LiczbyPierwsze.cs" />
+    <Compile Include="NWD.cs" />
     <Compile Include="PredkoscSrednia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

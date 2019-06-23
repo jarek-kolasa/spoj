@@ -11,30 +11,24 @@ namespace spoj
         static void Main(string[] args)
         {
             int tests = int.Parse(Console.ReadLine());
+            int a, b;
 
             for (int i = 0; i < tests; i++)
             {
-                int number = int.Parse(Console.ReadLine());
-
-                if (number >= 10)
-                {
-                    Console.WriteLine("0 0");
-                } else
-                {
-                long returnValue = 1;
-                long tens, digits;
-               
-                    for (int j = 2; j <= number; j++)
-                    {
-                        returnValue *= j;
-                    }
-
-                digits = returnValue % 10;
-                tens = (returnValue % 100) / 10;
-
-                Console.WriteLine("{0} {1}", tens, digits);
-                }
+                string numbers = Console.ReadLine();
+                a = int.Parse(numbers.Split(' ')[0]);
+                b = int.Parse(numbers.Split(' ')[1]);
+                Console.WriteLine(GreatestCommonDivisor(a, b));
             }
+        }
+
+        public static int GreatestCommonDivisor(int a, int b)
+        {
+            if (b != 0)
+            {
+                return GreatestCommonDivisor(b, a % b);
+            }
+            return a;
         }
     }
 }

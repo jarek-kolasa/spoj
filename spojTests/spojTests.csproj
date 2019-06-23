@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="DwieCyfrySilniTests.cs" />
     <Compile Include="LiczbyPierwszeTests.cs" />
+    <Compile Include="NWDTests.cs" />
     <Compile Include="PredkoscSredniaTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
