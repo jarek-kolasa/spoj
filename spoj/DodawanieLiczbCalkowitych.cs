@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace spoj
 {
-    class Program
+    public class DodawanieLiczbCalkowitych
     {
-        static void Main(string[] args)
+        public int LiczbyCalkowite(int a, int b, int c)
         {
-            
+            return a + b + c;
         }
     }
 }

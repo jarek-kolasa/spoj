@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DodawanieLiczbCalkowitych.cs" />
     <Compile Include="DwieCyfrySilni.cs" />
     <Compile Include="LiczbyPierwsze.cs" />
     <Compile Include="NWD.cs" />
