@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace spoj
 {
@@ -10,7 +7,18 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            
+            int tests = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < tests; i++)
+            {
+                string[] inputArrayString = Console.ReadLine().Substring(2).Split(' ');
+
+                for (int j = inputArrayString.Length - 1; j >= 0; j--)
+                {
+                    Console.Write(inputArrayString[j] + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
