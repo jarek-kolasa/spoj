@@ -11,14 +11,11 @@ namespace spoj
 
             for (int i = 0; i < tests; i++)
             {
-                string[] inputArrayString = Console.ReadLine().Substring(2).Split(' ');
-
-                for (int j = inputArrayString.Length - 1; j >= 0; j--)
-                {
-                    Console.Write(inputArrayString[j] + " ");
-                }
-                Console.WriteLine();
+                string text = Console.ReadLine();
+                Przedszkolanka test = new Przedszkolanka();
+                Console.WriteLine(test.BringSweets(text));
             }
+            
         }
     }
 }
