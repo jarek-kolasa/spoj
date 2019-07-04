@@ -53,6 +53,7 @@
     <Compile Include="ProsteDodawanie.cs" />
     <Compile Include="Przedszkolanka.cs" />
     <Compile Include="Samolot.cs" />
+    <Compile Include="Suma.cs" />
     <Compile Include="Tablice.cs" />
     <Compile Include="ZadanieProbne.cs" />
   </ItemGroup>

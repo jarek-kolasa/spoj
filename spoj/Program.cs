@@ -7,15 +7,7 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            int tests = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < tests; i++)
-            {
-                string text = Console.ReadLine();
-                Przedszkolanka test = new Przedszkolanka();
-                Console.WriteLine(test.BringSweets(text));
-            }
-            
+            Suma suma = new Suma();            
         }
     }
 }
