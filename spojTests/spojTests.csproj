@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="DodawanieLiczbCalkowitychTests.cs" />
     <Compile Include="DwieCyfrySilniTests.cs" />
+    <Compile Include="KalkulatorTests.cs" />
     <Compile Include="LiczbyPierwszeTests.cs" />
     <Compile Include="NowaDzialkaTests.cs" />
     <Compile Include="NWDTests.cs" />

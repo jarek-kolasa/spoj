@@ -7,13 +7,12 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            int tests = int.Parse(Console.ReadLine());
-            NowaDzialka dzialka = new NowaDzialka();
+            string input;
+            Kalkulator kalkulator = new Kalkulator();
 
-            for (int i = 0; i < tests; i++)
+            while ((input = Console.ReadLine()) != null)
             {
-                int dim = int.Parse(Console.ReadLine());
-                Console.WriteLine(dzialka.GetArea(dim));
+                kalkulator.Calculate(input);
             }
         }
     }

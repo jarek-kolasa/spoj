@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DodawanieLiczbCalkowitych.cs" />
     <Compile Include="DwieCyfrySilni.cs" />
+    <Compile Include="Kalkulator.cs" />
     <Compile Include="LiczbyPierwsze.cs" />
     <Compile Include="NowaDzialka.cs" />
     <Compile Include="NWD.cs" />
