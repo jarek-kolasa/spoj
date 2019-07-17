@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using spoj;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace spoj.Tests
 {
@@ -29,35 +23,40 @@ namespace spoj.Tests
         public void AddSevenAndNineTest()
         {
             string input = "+ 7 9";
-            Assert.AreEqual(16, kalkulator.Calculate(input));
+            kalkulator.Calculate(input);
+            Assert.AreEqual(16, kalkulator.GetResult());
         }
 
         [TestMethod()]
         public void ZeroMinusFourTest()
         {
             string input = "- 0 4";
-            Assert.AreEqual(-4, kalkulator.Calculate(input));
+            kalkulator.Calculate(input);
+            Assert.AreEqual(-4, kalkulator.GetResult());
         }
 
         [TestMethod()]
         public void MultiplyFiveAndSixTest()
         {
             string input = "* 5 6";
-            Assert.AreEqual(30, kalkulator.Calculate(input));
+            kalkulator.Calculate(input);
+            Assert.AreEqual(30, kalkulator.GetResult());
         }
 
         [TestMethod()]
         public void DivisionEightAndThreeTest()
         {
             string input = "/ 8 3";
-            Assert.AreEqual(2, kalkulator.Calculate(input));
+            kalkulator.Calculate(input);
+            Assert.AreEqual(2, kalkulator.GetResult());
         }
 
         [TestMethod()]
         public void ModFiveAndTwoTest()
         {
             string input = "% 5 2";
-            Assert.AreEqual(1, kalkulator.Calculate(input));
+            kalkulator.Calculate(input);
+            Assert.AreEqual(1, kalkulator.GetResult());
         }
     }
 }
