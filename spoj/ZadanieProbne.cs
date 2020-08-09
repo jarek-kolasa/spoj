@@ -10,10 +10,10 @@ namespace spoj
     {
         public ZadanieProbne()
         {
-            int value1 = int.Parse(Console.ReadLine());
-            int value2 = int.Parse(Console.ReadLine());
+            int firstNumber = int.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(value1 + value2);
+            Console.WriteLine(firstNumber + secondNumber);
         }
     }
 }

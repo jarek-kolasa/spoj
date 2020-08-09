@@ -7,13 +7,7 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            string input;
-            Kalkulator kalkulator = new Kalkulator();
-
-            while ((input = Console.ReadLine()) != null)
-            {
-                kalkulator.Calculate(input);
-            }
+            ProsteDodawanie dodawanie = new ProsteDodawanie();
         }
     }
 }
