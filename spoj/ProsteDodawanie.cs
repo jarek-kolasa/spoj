@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace spoj
 {
@@ -10,8 +6,38 @@ namespace spoj
     {
         public ProsteDodawanie()
         {
-           
+            int t, n;
 
+            Console.Write("Podaj liczbę testów: ");
+            t = int.Parse(Console.ReadLine());
+
+            int[] tests = new int[t];
+
+            for (int i = 1; i <= t; i++)
+            {
+                Console.WriteLine("Podaj ilość liczb do zsumowania w teście nr {0}", i);
+                n = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Podaj liczby z testu nr {0}",i);
+
+                string texttemp = Console.ReadLine();
+
+                string [] arr = (texttemp.Split(' '));
+
+                int sum = 0;
+
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    sum += int.Parse(arr[j]);
+                }
+
+                tests[i-1] = sum;
+            }
+
+            for (int i = 0; i < tests.Length; i++)
+            {
+            Console.WriteLine(tests[i].ToString());
+            }
         }
     }
 }
