@@ -8,16 +8,22 @@ namespace spoj
 {
     public class PredkoscSrednia
     {
-            int tests, v1, v2;
+            int v1, v2;
             string[] inputArr;
 
-        public PredkoscSrednia(string input)
+        public PredkoscSrednia(int input)
         {
-            inputArr = input.Split(' ');
-            tests = inputArr.Length;
 
-            v1 = int.Parse(inputArr[0]);
-            v2 = int.Parse(inputArr[1]);
+            for (int i = 0; i < input; i++)
+            {
+                inputArr = Console.ReadLine().Split(' ');
+
+                v1 = int.Parse(inputArr[0]);
+                v2 = int.Parse(inputArr[1]);
+
+                Console.WriteLine(GetAverageSpeed());
+            }
+           
         }
 
     public int GetAverageSpeed()

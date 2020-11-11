@@ -7,7 +7,8 @@ namespace spoj
     {
         static void Main(string[] args)
         {
-            ProsteDodawanie dodawanie = new ProsteDodawanie();
+            PredkoscSrednia predkosc = new PredkoscSrednia(int.Parse(Console.ReadLine()));
+            Console.ReadKey();
         }
     }
 }

@@ -1,55 +1,46 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace spoj
 {
     public class LiczbyPierwsze
     {
-        string[] answer;
-
-        public LiczbyPierwsze(int tests, int[] numbers)
+        public LiczbyPierwsze()
         {
-            answer = new string[tests];
+            int n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < tests; i++)
+            int number;
+
+            for (int i = 0; i < n; i++)
             {
-                if (isPrime(numbers[i]))
+                number = int.Parse(Console.ReadLine());
+
+                if (isPrime(number))
                 {
                     Console.WriteLine("TAK");
-                    answer[i] = "TAK";
                 }
                 else
                 {
                     Console.WriteLine("NIE");
-                    answer[i] = "NIE";
                 }
             }
+
         }
 
-        private static bool isPrime(int number)
+        public bool isPrime(int num)
         {
-            if (number < 2)
+            if (num < 2)
             {
                 return false;
             }
-
-            for (int i = 2; i < number; i++)
+            for (int i = 2; i < num; i++)
             {
-                if (number % i == 0)
+                if (num % i == 0)
                 {
                     return false;
                 }
             }
-
             return true;
-        }
-
-        public string[] GetAnswer()
-        {
-            return answer;
         }
     }
 }

@@ -8,17 +8,13 @@ namespace spoj
         {
             int t, n;
 
-            Console.Write("Podaj liczbę testów: ");
             t = int.Parse(Console.ReadLine());
 
             int[] tests = new int[t];
 
             for (int i = 1; i <= t; i++)
             {
-                Console.WriteLine("Podaj ilość liczb do zsumowania w teście nr {0}", i);
                 n = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Podaj liczby z testu nr {0}",i);
 
                 string texttemp = Console.ReadLine();
 
